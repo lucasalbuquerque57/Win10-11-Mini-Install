@@ -3,7 +3,7 @@
   <!-- UnattendedWinstall https://github.com/memstechtips/UnattendedWinstall -->
   <settings pass="offlineServicing"></settings>
   <settings pass="windowsPE">
-    <component name="Microsoft-Windows-Setup" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
+    <!--  --><component name="Microsoft-Windows-Setup" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
       <UserData>
         <ProductKey>
           <Key>00000-00000-00000-00000-00000</Key>
@@ -1627,7 +1627,7 @@ $appxPackages = @(
     'Microsoft.XboxSpeechToTextOverlay', 'Microsoft.GamingApp', 'Microsoft.YourPhone', 'Microsoft.OneDrive',
     'Microsoft.549981C3F5F10', 'Microsoft.MixedReality.Portal', 'Microsoft.ScreenSketch'
     'Microsoft.Windows.Ai.Copilot.Provider', 'Microsoft.Copilot', 'Microsoft.Copilot_8wekyb3d8bbwe',
-    'Microsoft.WindowsMeetNow', 'Microsoft.WindowsStore', 'Microsoft.Paint', 'Microsoft.MSPaint'
+    'Microsoft.WindowsMeetNow', 'Microsoft.WindowsStore', 'Microsoft.Paint'
 )
 
 # Define Windows Capabilities

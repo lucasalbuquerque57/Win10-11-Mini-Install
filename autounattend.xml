@@ -1610,7 +1610,7 @@ function Install-AppWithWinGet {
     Wait-IfNotSpecialize
 }
 
-# Remove Bloatware Apps Functions
+# Remove Bloatware Apps Functions, with Edge added on the list
 # Define Packages
 $appxPackages = @(
     'Microsoft.Microsoft3DViewer', 'Microsoft.MicrosoftEdge', 'Microsoft.BingSearch', 'Microsoft.WindowsCamera', 'Clipchamp.Clipchamp',

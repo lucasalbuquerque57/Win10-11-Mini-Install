@@ -286,7 +286,7 @@
         <!--Disables Windows Defender from Starting -->
         <RunSynchronousCommand wcm:action="add">
           <Order>7</Order>
-          <Path>cmd.exe /c "&gt;&gt;"X:\disable-defender.vbs" echo WScript.Echo "Scanning for newly created SYSTEM registry hive file to disable Windows Defender services...""</Path>
+          <Path>cmd.exe /c "&gt;&gt;"X:\disable-defender.vbs" echo WScript.Echo "Scanning for newly created SYSTEM registry hive file to disable Windows Defender services....""</Path>
         </RunSynchronousCommand>
         <RunSynchronousCommand wcm:action="add">
           <Order>8</Order>
